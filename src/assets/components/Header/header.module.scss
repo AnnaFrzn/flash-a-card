@@ -1,0 +1,35 @@
+@import "../vars.scss";
+
+.header {
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+}
+
+.appName {
+    padding: 10px;
+}
+
+.actions {
+    display: flex;
+    gap: 5px;
+}
+
+.main_link {
+    margin: 20px;
+    text-decoration: none;
+    background-color: $colorGreen;
+    color: white;
+    padding: 1em 1.5em;
+
+    &:hover {
+        background-color: #555;
+    }
+
+    &:active {
+        background-color: black;
+    }
+
+}
