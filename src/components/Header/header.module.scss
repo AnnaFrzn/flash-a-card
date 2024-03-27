@@ -1,4 +1,4 @@
-@import "../vars.scss";
+@import "src/assets/styles/vars.scss";
 
 .header {
     border: 1px solid red;
@@ -8,8 +8,14 @@
     padding: 10px 5px;
 }
 
+a {
+    text-decoration: none;
+    color: red;
+}
+
 .appName {
     padding: 10px;
+
 }
 
 .actions {

@@ -1,4 +1,4 @@
-@import "../vars.scss";
+@import "src/assets/styles/vars.scss";
 
 .card_container {
     width: 100%;
@@ -100,4 +100,9 @@
 .btn:disabled {
     pointer-events: none;
     opacity: 0.65;
+}
+
+.cards_studied {
+    padding: 20px 0 0 0;
+    font-weight: 700;
 }
